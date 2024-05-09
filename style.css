@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Задаем высоту контейнера по высоте экрана */
+}
+
+body {
+    margin: 0; /* Убираем отступы у body */
+    background: linear-gradient(to right, #fcb045, #fd1d1d);
+}
+
+.first-wrap-top {
+    border: 4px gray;
+    height: 300px;
+    width: 900px;
+    background: linear-gradient(rgb(54, 137, 193), rgb(35, 81, 234));
+    border-radius: 100px 100px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-name {
+    color: white;
+    font-size: 70px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+.progress-bar {
+    text-align: center;
+}
+#myProgress {
+    height: 30px;
+}
+
+.button-telegram {
+    margin-top: 10px;
+    width: 400px;
+
+    padding: 15px;
+    border: 4px solid #f00;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Italic;
+    background-color: gray;
+}
+
+.button_telegram {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mines_generate {
+    height: 450px;
+    width: 900px;
+    margin-top: 35px;
+    background: linear-gradient(rgb(151, 193, 54), rgb(35, 234, 234));
+    border: 4px solid gray;
+    border-radius: 30px 30px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.grid-row {
+    display: flex;
+}
+
+.grid-container {
+    padding-top: 30px
+}
+
+.grid-cell {
+    
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    background-color: #2ecc71; /* Зеленый цвет ячейки */
+    border: 2px solid #27ae60; /* Темно-зеленая обводка */
+    border-radius: 5px;
+}
+
+.button_search:hover{
+    background-color: #fcb045;
+}
+
+.button_search {
+    background-color: rgb(54, 137, 193);
+    border: 2px solid #27ae60;
+    border-radius: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 125px;
+    width: 125px;
+    font-size: 35px
+}
+.button_search {
+    cursor: pointer; /* Устанавливаем стандартный курсор типа "pointer" для кнопки */
+}
